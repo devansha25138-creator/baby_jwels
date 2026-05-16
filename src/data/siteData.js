@@ -35,7 +35,7 @@ export const heroData = {
   title: "Tiny Treasures.",
   accent: "Eternal Protection.",
   copy: "14K & 18K Gold Nazariya Jewellery Crafted for Little Blessings",
-  image: img("https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4"),
+  image: "/baby.jpg",
   primaryCta: { label: "Shop Collection", href: "#collections" },
   secondaryCta: { label: "Explore Story", href: "#story" },
   highlights: [
@@ -49,12 +49,12 @@ export const heroData = {
 export const collections = [
   {
     title: "Nazariya Bracelets",
-    image: img("https://images.unsplash.com/photo-1606760227091-3dd870d97f1d", 900),
+    image: "/nazariya_bracelet.jpg",
     href: "#bestsellers",
   },
   {
-    title: "Baby Bangles",
-    image: img("https://images.unsplash.com/photo-1617038220319-276d3cfab638", 900),
+    title: "Name Bracelets",
+    image: "/name_bracelet.jpg",
     href: "#bestsellers",
   },
   {
@@ -69,7 +69,7 @@ export const collections = [
   },
   {
     title: "Milestone Gifts",
-    image: img("https://images.unsplash.com/photo-1605100804763-247f67b3557e", 900),
+    image: "/milestone_gift.jpg",
     href: "#occasions",
   },
 ];
@@ -92,8 +92,8 @@ export const promiseData = {
 
 export const occasions = [
   {
-    title: "Naming Ceremony",
-    image: img("https://images.unsplash.com/photo-1450297350677-623de575f31c", 900),
+    title: "Om Bracelet",
+    image: "/om_bracelet.jpg",
     href: "#bestsellers",
   },
   {
@@ -123,13 +123,13 @@ export const products = [
     name: "Classic Nazariya Bracelet",
     material: "14K Gold",
     price: "₹14,999",
-    image: img("https://images.unsplash.com/photo-1606760227091-3dd870d97f1d", 900),
+    image: "/nazariya_bracelet.jpg",
   },
   {
-    name: "Diamond Nazariya Bracelet",
+    name: "Name Bracelet",
     material: "18K Gold",
     price: "₹21,999",
-    image: img("https://images.unsplash.com/photo-1611591437281-460bfbe1220a", 900),
+    image: "/name_bracelet.jpg",
   },
   {
     name: "Evil Eye Baby Bracelet",
@@ -166,7 +166,7 @@ export const footerLinks = [
     links: [
       { label: "Nazariya Bracelets", href: "#collections" },
       { label: "Diamond Nazariya", href: "#collections" },
-      { label: "Baby Bangles", href: "#collections" },
+      { label: "Name Bracelets", href: "#collections" },
       { label: "Milestone Gifts", href: "#occasions" },
     ],
   },
