@@ -75,7 +75,7 @@ export const collections = [
 ];
 
 export const promiseData = {
-  image: img("https://images.unsplash.com/photo-1549465220-1a8b9238cd48", 1200),
+  image: img("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338", 1200),
   eyebrow: "OUR PROMISE",
   title: "Made with Love.",
   accent: "Meant to Protect.",
