@@ -42,6 +42,9 @@ export default function Home() {
     <>
       <Navbar />
       <main className="page-shell">
+        <h1 style={{ color: "red", fontSize: "50px", padding: "40px" }}>
+          DEPLOY TEST 999
+        </h1>
         <section className="hero-section" id="home">
           <div className="hero-copy">
             <p className="hero-eyebrow">
