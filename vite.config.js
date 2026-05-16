@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/baby_jwels/docs/" : "/",
+  base: mode === "pages" ? "/baby_jwels/docs/" : "/",
   build: {
-    outDir: "docs",
+    outDir: mode === "pages" ? "docs" : "dist",
     emptyOutDir: true,
   },
   plugins: [react(), tailwindcss()],
